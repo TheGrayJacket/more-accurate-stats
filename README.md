@@ -5,7 +5,7 @@ An ExileMod override that replaces flat armor sum being displayed on Vests and H
 
 Download and drop the override file to a 'folder-of-your-choice'
 
-Add following like in your missionconfigfile > config.cpp > CfgExileCustomCode :
+Add following line in your missionconfigfile > config.cpp > CfgExileCustomCode :
 
 ExileClient_util_item_getMainStats = 										"'folder-of-your-choice'\ExileClient_util_item_getMainStats.sqf";
 
