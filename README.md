@@ -6,5 +6,6 @@ An ExileMod override that replaces flat armor sum being displayed on Vests and H
 Add following like in your missionconfigfile > config.cpp > CfgExileCustomCode :
 
 //More Accurate Armor Stats
+
 ExileClient_util_item_getMainStats = 										"Custom\Overrides\ExileClient_util_item_getMainStats.sqf";
 
