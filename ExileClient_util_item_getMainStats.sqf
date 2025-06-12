@@ -37,7 +37,7 @@ switch (_itemType select 0) do
 				
 				_passthrough = _headPassthrough;
 				
-				hint format ["BALLISTIC: %1 , EXPLOSIVE: %2", _passThrough, _armor]; //0.5, 14
+				//hint format ["BALLISTIC: %1 , EXPLOSIVE: %2", _passThrough, _armor]; //0.5, 14
 
 				// we can now use Bohemia's equation from BIS_fnc_configExtremes.sqf
 				_ballisticProtection = (_armor / (1 + _armor))^9 * (1 - _passThrough);
